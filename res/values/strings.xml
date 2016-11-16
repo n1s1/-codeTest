@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fitness</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+	<string name="email">Email</string>
+	<string name="location">Location</string>
+	<string name="password">Password</string>
+	<string name="login">Login</string>
+	<string name="signup">Create Account</string>
+	<string name="login_text">Already registered? Login.</string>
+	<string name="signup_text">Not registered? Register.</string>
+	
+	<string name="steps">Steps</string>
+	<string name="dsteps">Daily Steps</string>
+	<string name="tsteps">Total Steps</string>
+	<string name="milestone">Milestone</string>
+	<string name="rank">Rank</string>
+	<string name="walkReminder">Time to take a break from work and walk a little.</string>
+</resources>

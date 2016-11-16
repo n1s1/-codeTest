@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:singleLine="true"
+        android:layout_marginBottom="5dip"/>
+     
+    <EditText android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:inputType="textCapWords"
+        android:hint="@string/name" />        
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:singleLine="true"
+        android:layout_marginBottom="5dip"/>
+     
+    <EditText android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />        
+     
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginBottom="5dip"/>
+     
+    <EditText android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:singleLine="true"/>
+     
+    <Button android:id="@+id/btnSignup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"/>
+         
+    <TextView android:id="@+id/linkLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/login_text"
+        android:gravity="center"
+        android:textSize="16sp"/>
+    
+</LinearLayout>
+
